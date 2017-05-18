@@ -25,7 +25,7 @@ export class InputTrimDirective extends DefaultValueAccessor {
    */
   constructor ( _renderer: Renderer, _elementRef: ElementRef ) {
 
-    super( _renderer, _elementRef );
+    super( _renderer, _elementRef, true);
 
     this._el = _elementRef.nativeElement;
 
